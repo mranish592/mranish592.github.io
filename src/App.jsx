@@ -1,15 +1,13 @@
-import { useState } from 'react'
-import './App.css'
 import { Socials } from './components/Socials'
+import { Projects } from './components/Projects'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>Hi, I am  Anish</h1>
-      <h2>This website is under construction... 🚧 </h2>
-      <h3>Please visit later :&#41;</h3>
+      <h2>Hi, I am Anish</h2>
+      <p>I am a backend developer at Cisco working with big data and networking.</p>
+      <Projects></Projects>
       <Socials></Socials>
     </>
   )

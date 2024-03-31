@@ -1,5 +1,5 @@
 export function Socials() {
-    let socials = [
+    const socials = [
         {
             diplayText: "Github",
             link: "https://github.com/mranish592"
@@ -18,8 +18,7 @@ export function Socials() {
     return <>
         <span>
             {socials.map((social, index) => (
-
-                    <a key={index} href={social.link} target="_blank">{social.diplayText} </a>
+                <a key={index} href={social.link} class="social-link" target="_blank">{social.diplayText} </a>
             ))}
         </span>
     </>
